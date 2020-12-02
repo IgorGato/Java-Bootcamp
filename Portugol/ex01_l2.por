@@ -1,16 +1,18 @@
 programa
 {
-	inclua biblioteca Matematica 
+	
 	funcao inicio()
 	{
-		
-		real fahrenheit
-		real celsius
-		escreva("Escreva a temperatura em graus fahrenheit\n")
-		leia(fahrenheit)
-		celsius = (fahrenheit - 32)*5/9
-		celsius = Matematica.arredondar(celsius,2)
-		escreva("Sua temperatura em celsius eh: ",celsius,"\n")
+		real p, eh = 0.0, m = 0.0
+		const inteiro MAX = 50
+		const real valorMulta = 4.0
+		leia(p)
+		se (p > MAX){
+			eh = p - MAX
+			m = eh * valorMulta
+		}
+
+		escreva("O valor do peso excedente é de "+eh+" kilos, e da multa de "+m+" reais")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -18,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 245; 
+ * @POSICAO-CURSOR = 235; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

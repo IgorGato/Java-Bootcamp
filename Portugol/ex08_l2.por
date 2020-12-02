@@ -1,15 +1,18 @@
 programa
 {
+	inclua biblioteca Matematica
 	
 	funcao inicio()
 	{
-		real celsius
-		real fahrenheit
-		escreva("Escreva a temperatura em graus Celsius\n")
-		leia(celsius)
-		fahrenheit = (celsius*9/5)+32
-		escreva("Sua temperatura em fahrenheit eh: ",fahrenheit,"\n")
-		
+		escreva("Digite uma variavel N positiva\n")
+		inteiro N
+		const inteiro MIN = 100
+		leia(N)
+
+		se(N < MIN){
+			N = 0;
+		}
+		escreva("O valor da variavel N é: "+N);
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -17,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 65; 
+ * @POSICAO-CURSOR = 0; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
