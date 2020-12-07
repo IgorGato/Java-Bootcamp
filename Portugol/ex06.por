@@ -2,7 +2,13 @@ programa
 {
 	inclua biblioteca Matematica
 	funcao inicio()
-	{	real x1, y1, x2, y2, dis_euclides
+	{	
+		/*
+		 Dado dois pontos quaisquer no plano, P(x1, y1) e P(x2, y2), 
+		 calcule a distancia euclidiana entre eles. 
+		 */
+		
+		real x1, y1, x2, y2, dis_euclides
 		escreva("Digite duas coordenadas em um plano:\n")
 		leia(x1, y1, x2, y2)
 		dis_euclides = Matematica.raiz(
@@ -16,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 329; 
+ * @POSICAO-CURSOR = 64; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

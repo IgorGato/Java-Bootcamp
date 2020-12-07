@@ -4,6 +4,8 @@ programa
 	
 	funcao inicio()
 	{
+		//sistema de equações lineares
+		
 		real a, b, c, d, eh, f, x, y
 		escreva("Digite os coeficientes a,b,c,d,e e f para poder calcular o sistema\n")
 		leia(a, b, c, d, eh, f)
@@ -19,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 394; 
+ * @POSICAO-CURSOR = 98; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
