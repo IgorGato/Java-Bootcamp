@@ -14,6 +14,7 @@ programa
 	
 	funcao inicio()
 	{
+		//some e subtraia valores entre duas matrizes, depois faça uma matriz para cada um dos resultados
 		const inteiro linha = 4, coluna = 6
 		inteiro N1[linha][coluna], N2[linha][coluna]
 		inteiro matrizSoma[linha][coluna], matrizSubtracao[linha][coluna]
@@ -50,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 647; 
+ * @POSICAO-CURSOR = 618; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
