@@ -3,6 +3,11 @@ programa
 	
 	funcao inicio()
 	{
+		/*
+		lê uma quantidade desconhecida de números e conte quantos deles estão os intervalos: 
+		[0-25], [26-50], [51-75] e [76-100]. 
+		A entrada de dados deve terminar quando for lido um número negativo.*/
+		
 		inteiro numero, ate25 = 0, ate50 = 0, ate75 = 0, ate100 = 0
 		escreva("Digite numero de 0 a 100 para verificar qual o intervalo em que se encontram\n")
 		escreva("Digite um numero negativo para finalizar e saber o resultado\n")
@@ -32,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 732; 
+ * @POSICAO-CURSOR = 582; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

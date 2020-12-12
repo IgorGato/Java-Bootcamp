@@ -3,6 +3,8 @@ programa
 	
 	funcao inicio()
 	{
+		/*calculo do IMC de um adulto*/
+		
 		real altura, peso, IMC
 		escreva("Digite sua altura: ")
 		leia(altura)
@@ -28,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 212; 
+ * @POSICAO-CURSOR = 273; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -3,6 +3,11 @@ programa
 	inclua biblioteca Matematica
 	funcao inicio()
 	{
+		/*
+		Lê um vetor de 5, depois, um código inteiro. Se o código for zero, finalize o programa; 
+		se for 1, mostre o vetor na ordem direta; se for 2, mostre o vetor na ordem inversa. 
+		Caso, o código for diferente de 1 e 2, escreva uma mensagem informando que o código inválido.*/
+		
 		const inteiro numPosicoes = 5
 		real vetorValores[numPosicoes]
 		inteiro codigo
@@ -37,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 168; 
+ * @POSICAO-CURSOR = 65; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

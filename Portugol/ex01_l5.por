@@ -3,6 +3,13 @@ programa
 	
 	funcao inicio()
 	{
+		/*
+		Código Condição de pagamento 
+		1 À vista em dinheiro ou cheque, recebe 20% de desconto 
+		2 À vista no cartão de crédito, recebe 15% de desconto 
+		3 Em duas vezes, preço normal de etiqueta sem juros 
+		4 Em três vezes, preço normal de etiqueta mais juros de 10%
+		*/
 		real valorEtiqueta, valorFinal
 		inteiro opcaoPagamento
 		escreva("Digite o valor na etiqueta do produto: ")
@@ -33,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 977; 
+ * @POSICAO-CURSOR = 366; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
