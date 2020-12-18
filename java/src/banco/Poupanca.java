@@ -12,10 +12,13 @@ public class Poupanca extends conta {
 	public int getDataAniversario() {
 		return dataAniversario;
 	}
-
-	public void setDataAniversario(int dataAniversario) {
-		this.dataAniversario = dataAniversario;
-	}
 	
+	public void bonusPoupanca(int dataAtual) {
+		
+		if (dataAtual == this.dataAniversario) {
+			super.credito((super.getSaldo()*0.005));
+			System.out.println("Acrescido 0,5% ao seu saldo atual");
+		}
+	}
 	
 }
