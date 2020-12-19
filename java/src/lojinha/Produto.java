@@ -72,5 +72,20 @@ public class Produto {
 		else 
 			return false;
 	}
+	
+	public int comprar(int unidades) {
+		if((this.quantidadeProduto - unidades) >= 0) {
+			this.quantidadeProduto -= unidades;
+			System.out.println(getNomeProduto()+" ADICIONADO COM SUCESSO AO SEU CARRINHO DE COMPRAS");
+			return unidades;
+		}else {
+			System.out.println("NAO HÁ NUMERO DE UNIDADES SUFICIENTES DISPONIVEIS NO ESTOQUE");
+			return -1;
+		}
+	}
+	
+	public double totalValor() {
+		return (getQuantidadeProduto()*getPrecoProduto());
+	}
 
 }
