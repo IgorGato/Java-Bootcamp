@@ -1,17 +1,22 @@
 package banco;
 
-public class conta {
+public class Conta {
 protected int numeroConta;
 	protected String nome;
 	protected String cpf;
 	protected double saldo;
+	protected int tipoConta;
 	
 	
-	public conta(){
+	public int getTipoConta() {
+		return tipoConta;
+	}
+
+	public Conta(){
 
 	}
 	
-	public conta(int numeroConta, String nome, String cpf){
+	public Conta(int numeroConta, String nome, String cpf){
 		this.numeroConta = numeroConta;
 		this.nome = nome;
 		this.cpf = cpf;
@@ -65,7 +70,7 @@ protected int numeroConta;
 	
 	
 	
-	public void credito (double valorCredito) 
+	public void credito(double valorCredito) 
 	{
 		this.saldo = this.saldo + valorCredito;
 	}
@@ -82,5 +87,6 @@ protected int numeroConta;
 		
 		return teste;
 	}
+
 
 }

@@ -1,6 +1,6 @@
 package banco;
 
-public class Corrente extends conta {
+public class Corrente extends Conta {
 
 		protected int numeroTalaoCheque;
 

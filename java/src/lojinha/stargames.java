@@ -16,11 +16,13 @@ public class stargames {
 		List<Produto> estoque = iniciarEstoque(numProdutos);
 		List<Produto> carrinho = new ArrayList<>();
 		
-		System.out.println("BEM VINDO À STARGAMES\n");
+		fazerLinhas(80);
+		System.out.println("BEM VINDO À STARGAMES");
+		fazerLinhas(80);
 		
-		System.out.println("DIGITE SEU NOME, CLIENTE");
+		System.out.print("DIGITE SEU NOME, CLIENTE:");
 		String nome = scanf.nextLine();
-		System.out.println("QUAL GENERO VOCE SE IDENTIFICA?\n[M]-MASCULINO\n[F]-FEMININO\n[O]-OUTRO");
+		System.out.print("QUAL GENERO VOCE SE IDENTIFICA?\n[M]-MASCULINO\n[F]-FEMININO\n[O]-OUTRO:");
 		char genero = scanf.next().toUpperCase().charAt(0);
 		Cliente novoCliente = new Cliente(nome, genero);
 		if(novoCliente.getGenero() == 'M') {
@@ -171,12 +173,12 @@ public class stargames {
 			}
 		}while(opcao != 3);
 		
-		
-
-		
-		
-		
 		scanf.close();
+	}
+	public static void fazerLinhas(int numLinhas) {
+		for(int i = 0; i < numLinhas; i++)
+			System.out.print("=");
+		System.out.println();
 	}
 	
 	public static List<Produto> iniciarEstoque(int numProdutos){
