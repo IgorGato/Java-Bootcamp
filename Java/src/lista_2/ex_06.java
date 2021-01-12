@@ -1,4 +1,4 @@
-package turma_java;
+package lista_2;
 
 import java.util.Scanner;
 

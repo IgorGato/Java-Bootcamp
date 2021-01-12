@@ -2,7 +2,7 @@ package java_POO_lista_2;
 
 public class Pessoa {
 	protected String nome; 
-	protected String endereço;
+	protected String endereco;
 	protected String telefone;
 	protected int idade;
 	protected char genero;
@@ -29,12 +29,12 @@ public class Pessoa {
 		this.nome = nome;
 	}
 
-	public String getEndereço() {
-		return endereço;
+	public String getEndereco() {
+		return endereco;
 	}
 
-	public void setEndereço(String endereço) {
-		this.endereço = endereço;
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
 	}
 
 	public String getTelefone() {
